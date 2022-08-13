@@ -1,4 +1,5 @@
 import React from 'react';
+import AboutMeSection from '../components/AboutMeSection';
 import IntroSection from '../components/IntroSection';
 import SocialLinksSection from '../components/SocialLinksSection';
 import ThemeToggler from '../components/ThemeToggler';
@@ -14,6 +15,7 @@ const Home = () => {
             <div className={`${style.detailsSection} container`}>
                 <IntroSection />
                 <SocialLinksSection />
+                <AboutMeSection />
             </div>
         </div>
     );
