@@ -6,13 +6,30 @@
     width: 100vw;
 }
 
+.navbar {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1rem;
+}
+
 .themeIconContainer {
     position: relative;
+    width: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .themeIcon {
-    font-size: 1.5rem;
+    font-size: 2rem;
     position: absolute;
+    cursor: pointer;
 }
 
 .hideIcon {
