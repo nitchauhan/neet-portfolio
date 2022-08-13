@@ -1,4 +1,5 @@
-import React from 'react';
+import Head from 'next/head';
+import React, { Fragment } from 'react';
 import AboutMeSection from '../components/AboutMeSection';
 import IntroSection from '../components/IntroSection';
 import SocialLinksSection from '../components/SocialLinksSection';
@@ -9,19 +10,25 @@ import style from '../styles/Home.module.css';
 
 const Home = () => {
     return (
-        <div className={style.main}>
-            <div className={style.navbar}>
-                <ThemeToggler />
-            </div>
+        <Fragment>
+            <Head>
+                <title>Harsh Patel</title>
+            </Head>
 
-            <div className={`${style.detailsSection} container`}>
-                <IntroSection />
-                <SocialLinksSection />
-                <AboutMeSection />
-                <TechStackSection />
-                <WorkHistorySection />
+            <div className={style.main}>
+                <div className={style.navbar}>
+                    <ThemeToggler />
+                </div>
+
+                <div className={`${style.detailsSection} container`}>
+                    <IntroSection />
+                    <SocialLinksSection />
+                    <AboutMeSection />
+                    <TechStackSection />
+                    <WorkHistorySection />
+                </div>
             </div>
-        </div>
+        </Fragment>
     );
 };
 
