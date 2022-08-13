@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     line-height: 1.5em;
-    height: 100vh;
     width: 100vw;
 }
 
@@ -17,6 +16,7 @@
     align-items: center;
     justify-content: flex-end;
     padding: 1rem;
+    background-color: var(--mainBgColor);
 }
 
 .themeIconContainer {
@@ -42,4 +42,38 @@
     opacity: 1;
     transition: opacity 1s ease-in;
     /* transition-delay: 1s; */
+}
+
+.detailsSection {
+    margin-top: 4rem;
+    width: 100vw;
+}
+
+.sectionContainer {
+    padding: 1rem 0;
+}
+
+.introSectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.introSectionImage {
+    width: 9.5rem;
+    height: 9.5rem;
+}
+
+.introSectionImage img {
+    border-radius: 50%;
+}
+
+.introSectionText>div:first-child {
+    font-size: 3rem;
+    line-height: 1em;
+}
+
+.introSectionText>p {
+    margin: 1rem 0;
 }

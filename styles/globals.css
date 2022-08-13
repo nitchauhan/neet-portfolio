@@ -55,6 +55,10 @@ a {
     font-weight: 500;
 }
 
+a:hover {
+    color: var(--mainLinkColor);
+}
+
 li {
     line-height: 1.9em;
 }
