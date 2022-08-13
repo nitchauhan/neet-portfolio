@@ -1,3 +1,10 @@
+const getExperience = () => {
+    const joiningDate = new Date(2019, 8, 1).getFullYear();
+    const today = new Date().getFullYear();
+
+    return today - joiningDate;
+};
+
 const MyData = {
     name: 'Harsh Patel',
     description: 'Senior Software Developer',
@@ -28,7 +35,7 @@ const MyData = {
     ],
 
     aboutMe: {
-        totalExperience: '5',
+        totalExperience: getExperience(),
         details:
             'Experienced Software Developer, adept in bringing forth expertise in design, installation, testing, and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with the latest cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Bringing forth expertise in the design, installation, testing, and maintenance of web systems. Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Knowledgeable in the user interface, testing, and debugging processes.'
     },
