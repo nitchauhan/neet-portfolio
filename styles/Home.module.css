@@ -96,13 +96,15 @@
     margin: 1rem 0;
 }
 
-.socialLinksSectionContainer {
+.socialLinksSectionContainer,
+.techStackDetails {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
 }
 
 @media (max-width: 500px) {
+
     .socialLinksSectionContainer {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -110,4 +112,39 @@
 
 .aboutMeDetails {
     text-align: justify;
+}
+
+.techStackDetails {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items: stretch;
+}
+
+@media (min-width: 450px) {
+
+    .techStackDetails {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 576px) {
+
+    .techStackDetails {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 768px) {
+
+    .techStackDetails {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.techStackItem {
+    min-width: 120px;
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    align-items: center;
 }
