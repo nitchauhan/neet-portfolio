@@ -12,24 +12,34 @@
     --mainLinkColor-dark: rgb(30, 190, 214);
     --mainBorderColor-dark: #2b3031;
     --mainBgColor-dark: #131415;
+}
 
+* {
+    font-family: 'Readex Pro';
+    box-sizing: border-box;
+}
+
+.light {
+    --mainTextColor: var(--mainTextColor-light);
+    --secondaryTextColor: var(--secondaryTextColor-light);
+    --mainLinkColor: var(--mainLinkColor-light);
+    --mainBorderColor: var(--mainBorderColor-light);
+    --mainBgColor: var(--mainBgColor-light);
+}
+
+.dark {
     --mainTextColor: var(--mainTextColor-dark);
     --secondaryTextColor: var(--secondaryTextColor-dark);
     --mainLinkColor: var(--mainLinkColor-dark);
     --mainBorderColor: var(--mainBorderColor-dark);
     --mainBgColor: var(--mainBgColor-dark);
-
-}
-
-* {
-    font-family: 'Readex Pro';
-    line-height: 1.5em;
-    box-sizing: border-box;
-    color: var(--mainTextColor);
 }
 
 body {
+    margin: 0;
+    color: var(--mainTextColor);
     background-color: var(--mainBgColor);
+    transition: background-color 1s;
 }
 
 p,

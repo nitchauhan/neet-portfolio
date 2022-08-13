@@ -1,0 +1,28 @@
+.main {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5em;
+    height: 100vh;
+    width: 100vw;
+}
+
+.themeIconContainer {
+    position: relative;
+}
+
+.themeIcon {
+    font-size: 1.5rem;
+    position: absolute;
+}
+
+.hideIcon {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+    /* transition-delay: 1s; */
+}
+
+.showIcon {
+    opacity: 1;
+    transition: opacity 1s ease-in;
+    /* transition-delay: 1s; */
+}
