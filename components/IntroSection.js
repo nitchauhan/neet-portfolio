@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MyPhoto from '../assets/MyPhoto.jpg';
+import MyPhoto from '../public/MyPhoto.jpg';
 import MyData from '../data/myDetails';
 import style from '../styles/Home.module.css';
 

@@ -39,17 +39,14 @@ class MyDocument extends Document {
                     <meta property="og:url" content="https://www.harrsh.com/" />
                     <meta property="og:title" content="Harsh Patel" />
                     <meta property="og:description" content="Senior Software Developer" />
-                    <meta property="og:image" content="https://i.postimg.cc/cC2MgTD8/MyPhoto.jpg" />
+                    <meta property="og:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
                     {/* Twitter */}
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta property="twitter:url" content="https://www.harrsh.com/" />
                     <meta property="twitter:title" content="Harsh Patel" />
                     <meta property="twitter:description" content="Senior Software Developer" />
-                    <meta
-                        property="twitter:image"
-                        content="https://i.postimg.cc/cC2MgTD8/MyPhoto.jpg"
-                    />
+                    <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
                     {/* SEO */}
                 </Head>
