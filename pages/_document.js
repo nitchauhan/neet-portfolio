@@ -37,16 +37,17 @@ class MyDocument extends Document {
                     {/* Open Graph / Facebook */}
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://www.harrsh.com/" />
-                    <meta property="og:title" content="" />
-                    <meta property="og:description" content="" />
-                    <meta property="og:image" content="" />
+                    <meta property="og:title" content="Harsh Patel" />
+                    <meta property="og:description" content="Senior Software Developer" />
+                    <meta property="og:image" content="../assets/MyPhoto.jpg" />
 
                     {/* Twitter */}
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta property="twitter:url" content="https://www.harrsh.com/" />
-                    <meta property="twitter:title" content="" />
-                    <meta property="twitter:description" content="" />
-                    <meta property="twitter:image" content="" />
+                    <meta property="twitter:title" content="Harsh Patel" />
+                    <meta property="twitter:description" content="Senior Software Developer" />
+                    <meta property="twitter:image" content="../assets/MyPhoto.jpg" />
+
                     {/* SEO */}
                 </Head>
                 <body className="dark">
