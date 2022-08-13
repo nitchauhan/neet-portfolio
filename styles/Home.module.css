@@ -83,6 +83,22 @@
     line-height: 1em;
 }
 
+.introSectionEmail {
+    margin: 1rem 0;
+}
+
 .introSectionText>p {
     margin: 1rem 0;
+}
+
+.socialLinksSectionContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+@media (max-width: 500px) {
+    .socialLinksSectionContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

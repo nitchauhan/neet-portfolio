@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './Home';
 import ThemeProvider from '../context/ThemeContext';
+import Home from './Home';
 
 const App = () => {
     return (

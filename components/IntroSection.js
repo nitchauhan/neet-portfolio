@@ -1,8 +1,8 @@
-import style from '../styles/Home.module.css';
-import React from 'react';
 import Image from 'next/image';
+import React from 'react';
 import MyPhoto from '../assets/MyPhoto.jpg';
 import MyData from '../data/myDetails';
+import style from '../styles/Home.module.css';
 
 const IntroSection = () => {
     return (
@@ -21,7 +21,7 @@ const IntroSection = () => {
             <div className={style.introSectionText}>
                 <div>{MyData.name}</div>
                 <p>{MyData.description}</p>
-                <div>
+                <div className={style.introSectionEmail}>
                     👉 <a href={`mailto:${MyData.email}`}>{MyData.email}</a>
                 </div>
             </div>
