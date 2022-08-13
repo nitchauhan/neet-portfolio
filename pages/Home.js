@@ -4,6 +4,7 @@ import IntroSection from '../components/IntroSection';
 import SocialLinksSection from '../components/SocialLinksSection';
 import TechStackSection from '../components/TechStackSection';
 import ThemeToggler from '../components/ThemeToggler';
+import WorkHistorySection from '../components/WorkHistorySection';
 import style from '../styles/Home.module.css';
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
                 <SocialLinksSection />
                 <AboutMeSection />
                 <TechStackSection />
+                <WorkHistorySection />
             </div>
         </div>
     );

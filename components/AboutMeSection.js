@@ -6,7 +6,12 @@ const AboutMeSection = () => {
     return (
         <section className={`${style.aboutMeSectionContainer} ${style.sectionContainer}`}>
             <div className={style.detailsHeading}>About Me</div>
-            <p className={style.aboutMeDetails}>{MyData.aboutMe}</p>
+
+            <p className={style.totalExperience}>
+                Total experience: {MyData.aboutMe.totalExperience} years
+            </p>
+
+            <p className={style.aboutMeDetails}>{MyData.aboutMe.details}</p>
         </section>
     );
 };

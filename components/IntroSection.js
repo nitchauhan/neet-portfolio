@@ -22,7 +22,10 @@ const IntroSection = () => {
                 <div>{MyData.name}</div>
                 <p>{MyData.description}</p>
                 <div className={style.introSectionEmail}>
-                    👉 <a href={`mailto:${MyData.email}`}>{MyData.email}</a>
+                    📧 <a href={`mailto:${MyData.email}`}>{MyData.email}</a>
+                </div>
+                <div className={style.introSectionEmail}>
+                    📞 <a href={`tel:${MyData.call}`}>{MyData.call}</a>
                 </div>
             </div>
         </section>

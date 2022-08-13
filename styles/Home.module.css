@@ -57,6 +57,13 @@
 .detailsHeading {
     font-size: 1.5rem;
     margin: 1rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--mainBorderColor);
+}
+
+.totalExperience {
+    color: var(--mainLinkColor);
+    margin-bottom: 0.5rem;
 }
 
 .introSectionContainer {
@@ -147,4 +154,19 @@
     border-radius: 5px;
     padding: 0.5em 1em;
     align-items: center;
+}
+
+.workHistory {
+    margin: 1rem;
+    /* padding: 0 1rem; */
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--mainBorderColor);
+}
+
+.workHistory:last-child {
+    border-bottom: none;
+}
+
+.place {
+    margin-top: 0;
 }
