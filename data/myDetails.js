@@ -21,8 +21,8 @@ const MyData = {
             url: 'https://github.com/harrsh2124'
         },
         {
-            title: 'Twitter',
-            url: 'https://twitter.com/harrsh2124'
+            title: 'Instagram',
+            url: 'https://instagram.com/harrsh2124'
         },
         {
             title: 'Dev.to',
