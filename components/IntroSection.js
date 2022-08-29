@@ -3,19 +3,30 @@ import React from 'react';
 import MyPhoto from '../public/MyPhoto.jpg';
 import MyData from '../data/myDetails';
 import style from '../styles/Home.module.css';
+import { useAmp } from 'next/amp';
+
+export const config = {
+    amp: 'hybrid'
+};
 
 const IntroSection = () => {
+    const loadAmp = useAmp();
+
     return (
         <section className={`${style.introSectionContainer} ${style.sectionContainer}`}>
             <div className={style.introSectionImage}>
-                <Image
-                    src={MyPhoto}
-                    alt="Harsh Patel"
-                    priority={true}
-                    layout="responsive"
-                    quality="100"
-                    placeholder="blur"
-                />
+                {loadAmp ? (
+                    <amp-img src={MyPhoto} alt="Harsh Patel" layout="responsive" />
+                ) : (
+                    <Image
+                        src={MyPhoto}
+                        alt="Harsh Patel"
+                        priority={true}
+                        layout="responsive"
+                        quality="100"
+                        placeholder="blur"
+                    />
+                )}
             </div>
 
             <div className={style.introSectionText}>
