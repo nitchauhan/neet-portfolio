@@ -28,7 +28,10 @@ class MyDocument extends Document {
 
                     {/* Primary Meta Tags */}
                     <meta name="title" content="Harsh Patel | Full-Stack Web Developer" />
-                    <meta name="description" content="Senior Software Developer based in India." />
+                    <meta
+                        name="description"
+                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation. Proficient in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback."
+                    />
                     <meta
                         name="keywords"
                         content="software, developer, programmer, harrsh, harsh, full-stack, web, react, node, mern, express, javascript, database"
@@ -44,7 +47,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta
                         property="og:description"
-                        content="Senior Software Developer based in India."
+                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation. Proficient in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback."
                     />
                     <meta property="og:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
@@ -57,7 +60,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="twitter:description"
-                        content="Senior Software Developer based in India."
+                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation. Proficient in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback."
                     />
                     <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
