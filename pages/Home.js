@@ -1,12 +1,13 @@
+import dynamic from 'next/dynamic';
 import Head from 'next/head';
 import React, { Fragment } from 'react';
-import AboutMeSection from '../components/AboutMeSection';
-import IntroSection from '../components/IntroSection';
-import SocialLinksSection from '../components/SocialLinksSection';
-import TechStackSection from '../components/TechStackSection';
-import ThemeToggler from '../components/ThemeToggler';
-import WorkHistorySection from '../components/WorkHistorySection';
 import style from '../styles/Home.module.css';
+const WorkHistorySection = dynamic(() => import('../components/WorkHistorySection'));
+const SocialLinksSection = dynamic(() => import('../components/SocialLinksSection'));
+const TechStackSection = dynamic(() => import('../components/TechStackSection'));
+const ThemeToggler = dynamic(() => import('../components/ThemeToggler'));
+const AboutMeSection = dynamic(() => import('../components/AboutMeSection'));
+const IntroSection = dynamic(() => import('../components/IntroSection'));
 
 const Home = () => {
     return (
