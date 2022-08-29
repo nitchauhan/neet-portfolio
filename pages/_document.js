@@ -27,7 +27,7 @@ class MyDocument extends Document {
                     {/* SEO */}
 
                     {/* Primary Meta Tags */}
-                    <meta name="title" content="Harsh Patel - Full stack web developer" />
+                    <meta name="title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta name="description" content="Senior Software Developer based in India." />
                     <meta
                         name="keywords"
@@ -41,7 +41,7 @@ class MyDocument extends Document {
                     {/* Open Graph / Facebook */}
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://www.harrsh.com/" />
-                    <meta property="og:title" content="Harsh Patel - Full stack web developer" />
+                    <meta property="og:title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta
                         property="og:description"
                         content="Senior Software Developer based in India."
@@ -53,7 +53,7 @@ class MyDocument extends Document {
                     <meta property="twitter:url" content="https://www.harrsh.com/" />
                     <meta
                         property="twitter:title"
-                        content="Harsh Patel - Full stack web developer"
+                        content="Harsh Patel | Full-Stack Web Developer"
                     />
                     <meta
                         property="twitter:description"

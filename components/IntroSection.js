@@ -19,7 +19,7 @@ const IntroSection = () => {
             </div>
 
             <div className={style.introSectionText}>
-                <div>{MyData.name}</div>
+                <h1>{MyData.name}</h1>
                 <p>{MyData.description}</p>
                 <div className={style.introSectionEmail}>
                     📧 <a href={`mailto:${MyData.email}`}>{MyData.email}</a>

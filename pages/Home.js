@@ -12,7 +12,7 @@ const Home = () => {
     return (
         <Fragment>
             <Head>
-                <title>Harsh Patel</title>
+                <title>Harsh Patel | Full-Stack Web Developer</title>
             </Head>
 
             <div className={style.main}>
