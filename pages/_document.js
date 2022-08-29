@@ -30,7 +30,7 @@ class MyDocument extends Document {
                     <meta name="title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta
                         name="description"
-                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation. Proficient in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback."
+                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
                     />
                     <meta
                         name="keywords"
@@ -47,7 +47,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="Harsh Patel | Full-Stack Web Developer" />
                     <meta
                         property="og:description"
-                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation. Proficient in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback."
+                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
                     />
                     <meta property="og:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
@@ -60,7 +60,7 @@ class MyDocument extends Document {
                     />
                     <meta
                         property="twitter:description"
-                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries. Equipped with a record of success in consistently identifying and providing the technological needs of companies through ingenious innovation. Proficient in developing databases, creating user interfaces, writing and testing codes, troubleshooting simple/complex issues, and implementing new features based on user feedback."
+                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
                     />
                     <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
