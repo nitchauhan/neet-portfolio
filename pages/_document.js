@@ -27,11 +27,11 @@ class MyDocument extends Document {
                     {/* SEO */}
 
                     {/* Primary Meta Tags */}
-                    <meta name="title" content="Harsh Patel" />
-                    <meta name="description" content="Senior Software Developer" />
+                    <meta name="title" content="Harsh Patel - Full stack web developer" />
+                    <meta name="description" content="Senior Software Developer based in India." />
                     <meta
                         name="keywords"
-                        content="software, developer, programmer, harrsh, harsh"
+                        content="software, developer, programmer, harrsh, harsh, full-stack, web, react, node, mern, express, javascript, database"
                     />
                     <meta name="robots" content="index, follow" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
@@ -41,15 +41,24 @@ class MyDocument extends Document {
                     {/* Open Graph / Facebook */}
                     <meta property="og:type" content="website" />
                     <meta property="og:url" content="https://www.harrsh.com/" />
-                    <meta property="og:title" content="Harsh Patel" />
-                    <meta property="og:description" content="Senior Software Developer" />
+                    <meta property="og:title" content="Harsh Patel - Full stack web developer" />
+                    <meta
+                        property="og:description"
+                        content="Senior Software Developer based in India."
+                    />
                     <meta property="og:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
                     {/* Twitter */}
                     <meta property="twitter:card" content="summary_large_image" />
                     <meta property="twitter:url" content="https://www.harrsh.com/" />
-                    <meta property="twitter:title" content="Harsh Patel" />
-                    <meta property="twitter:description" content="Senior Software Developer" />
+                    <meta
+                        property="twitter:title"
+                        content="Harsh Patel - Full stack web developer"
+                    />
+                    <meta
+                        property="twitter:description"
+                        content="Senior Software Developer based in India."
+                    />
                     <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
                     {/* SEO */}
