@@ -1,5 +1,4 @@
 import Document, { Head, Html, Main, NextScript } from 'next/document';
-import Script from 'next/script';
 
 class MyDocument extends Document {
     render() {
@@ -75,22 +74,6 @@ class MyDocument extends Document {
                     <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
 
                     {/* SEO */}
-
-                    {/* Google Analytics */}
-                    <Script
-                        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
-                        strategy="afterInteractive"
-                    />
-                    <Script id="google-analytics" strategy="afterInteractive">
-                        {`
-                            window.dataLayer = window.dataLayer || [];
-                            function gtag(){window.dataLayer.push(arguments);}
-                            gtag('js', new Date());
-
-                            gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
-                        `}
-                    </Script>
-                    {/* Google Analytics */}
                 </Head>
                 <body className="dark">
                     <Main />
