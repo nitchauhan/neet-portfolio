@@ -36,7 +36,7 @@ const MyData = {
 
     aboutMe: {
         totalExperience: getExperience(),
-        blogLink: 'https://harsh2124.wordpress.com',
+        blogLink: 'harsh2124.wordpress.com',
         details:
             'Experienced Software Developer, adept in bringing forth expertise in design, installation, testing, and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with the latest cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Bringing forth expertise in the design, installation, testing, and maintenance of web systems. Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Knowledgeable in the user interface, testing, and debugging processes.'
     },

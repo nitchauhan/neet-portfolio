@@ -15,7 +15,7 @@ const AboutMeSection = () => {
 
             <p className={style.aboutMeDetails}>
                 Sometimes I write at{' '}
-                <a href={MyData.aboutMe.blogLink} target={'_blank'} rel="noreferrer">
+                <a href={`https://${MyData.aboutMe.blogLink}`} target={'_blank'} rel="noreferrer">
                     {MyData.aboutMe.blogLink}
                 </a>
             </p>
