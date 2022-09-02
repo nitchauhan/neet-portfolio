@@ -18,6 +18,7 @@ const AboutMeSection = () => {
                 <a href={`https://${MyData.aboutMe.blogLink}`} target={'_blank'} rel="noreferrer">
                     {MyData.aboutMe.blogLink}
                 </a>
+                .
             </p>
         </section>
     );
