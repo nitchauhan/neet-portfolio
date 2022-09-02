@@ -154,7 +154,13 @@
     border: 1px solid var(--mainBorderColor);
     border-radius: 5px;
     padding: 0.5em 1em;
-    align-items: center;
+    transition: color 300ms ease-in-out, background-color 300ms ease, border-color 300ms ease;
+}
+
+.techStackItem:hover {
+    background-color: var(--mainTextColor);
+    border-color: var(--mainTextColor);
+    color: var(--mainBgColor);
 }
 
 .workHistory {

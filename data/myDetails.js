@@ -6,7 +6,7 @@ const getExperience = () => {
 };
 
 const MyData = {
-    name: 'Harsh Patel',
+    name: 'Harrsh Patel',
     description: 'Senior Software Developer',
     email: 'me@harrsh.com',
     call: '+91 9099976321',

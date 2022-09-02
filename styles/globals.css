@@ -38,6 +38,7 @@ body {
     color: var(--mainTextColor);
     background-color: var(--mainBgColor);
     transition: background-color 1s;
+    user-select: none;
 }
 
 p,
