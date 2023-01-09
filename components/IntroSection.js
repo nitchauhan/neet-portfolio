@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import MyPhoto from '../public/MyPhoto.jpg';
+import MyPhoto from '../public/MyPhoto.png';
 import MyData from '../data/myDetails';
 import style from '../styles/Home.module.css';
 import { useAmp } from 'next/amp';
@@ -16,11 +16,11 @@ const IntroSection = () => {
         <section className={`${style.introSectionContainer} ${style.sectionContainer}`}>
             <div className={style.introSectionImage}>
                 {loadAmp ? (
-                    <amp-img src={MyPhoto} alt="Harsh Patel" layout="responsive" />
+                    <amp-img src={MyPhoto} alt="Nitin Chauhan" layout="responsive" />
                 ) : (
                     <Image
                         src={MyPhoto}
-                        alt="Harsh Patel"
+                        alt="Nitin Chauhan"
                         priority={true}
                         layout="responsive"
                         quality="100"

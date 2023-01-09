@@ -36,42 +36,43 @@ class MyDocument extends Document {
                     {/* SEO */}
 
                     {/* Primary Meta Tags */}
-                    <meta name="title" content="Harsh Patel | Full-Stack Web Developer" />
+                    <meta name="title" content="Nitin Chauhan | Full-Stack Web Developer" />
                     <meta
                         name="description"
                         content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
                     />
                     <meta
                         name="keywords"
-                        content="software, developer, programmer, harrsh, harsh, full-stack, web, react, node, mern, express, javascript, database"
+                        content="software, developer, programmer, nitin, Nitin, full-stack, web, react, node, mern, express, javascript, database"
                     />
                     <meta name="robots" content="index, follow" />
                     <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
                     <meta name="language" content="English" />
-                    <meta name="author" content="Harrsh Patel" />
+                    <meta name="author" content="Nitin Chauhan" />
 
                     {/* Open Graph / Facebook */}
+
                     <meta property="og:type" content="website" />
-                    <meta property="og:url" content="https://www.harrsh.com/" />
-                    <meta property="og:title" content="Harsh Patel | Full-Stack Web Developer" />
+                    <meta property="og:url" content="https://dev-nitin.vercel.app" />
+                    <meta property="og:title" content="Nitin Chauhan | Mern-Stack Web Developer" />
                     <meta
                         property="og:description"
                         content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
                     />
-                    <meta property="og:image" content="https://www.harrsh.com/MyPhoto.jpg" />
+                    <meta property="og:image" content="https://dev-nitin.vercel.app/MyPhoto.png" />
 
                     {/* Twitter */}
                     <meta property="twitter:card" content="summary_large_image" />
-                    <meta property="twitter:url" content="https://www.harrsh.com/" />
+                    <meta property="twitter:url" content="https://dev-nitin.vercel.app" />
                     <meta
                         property="twitter:title"
-                        content="Harsh Patel | Full-Stack Web Developer"
+                        content="Nitin Chauhan | Mern-Stack Web Developer"
                     />
                     <meta
                         property="twitter:description"
                         content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
                     />
-                    <meta property="twitter:image" content="https://www.harrsh.com/MyPhoto.jpg" />
+                    {/* <meta property="twitter:image" content="https://www.nitin.com/MyPhoto.png" /> */}
 
                     {/* SEO */}
                 </Head>

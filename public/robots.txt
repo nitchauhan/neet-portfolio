@@ -6,4 +6,4 @@ Allow: /
 User-agent: Googlebot
 Disallow: /nogooglebot/
 
-Sitemap: https://harrsh.com/sitemap.xml
+Sitemap: https://dev-nitin.vercel.app/sitemap.xml

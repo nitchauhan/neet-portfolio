@@ -10,12 +10,12 @@ export const getServerSideProps = async ({ res }) => {
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
         <url>
-            <loc>https://www.harrsh.com/</loc>
+            <loc>https://www.nitin.com/</loc>
             <lastmod>2022-08-29T10:01:58+00:00</lastmod>
             <priority>1.00</priority>
         </url>
         <url>
-            <loc>https://www.harrsh.com/resume.pdf</loc>
+            <loc>https://www.nitin.com/resume.pdf</loc>
             <lastmod>2022-08-29T10:01:58+00:00</lastmod>
             <priority>0.80</priority>
         </url>
