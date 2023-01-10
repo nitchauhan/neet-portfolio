@@ -44,15 +44,14 @@ const MyData = {
         'BOOTSTRAP',
         'Core UI',
         'Redux',
+        'Redux Saga',
+        'Typescript',
         'React Query',
         'React JS',
         'Next JS',
         'Express JS',
         'Mongo DB',
         'MySQL',
-        'Python',
-        'Django',
-        'Flask',
     ],
 
     workHistory: [
