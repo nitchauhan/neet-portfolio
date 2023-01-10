@@ -21,14 +21,14 @@ const MyData = {
             title: 'GitHub',
             url: 'https://github.com/nitchauhan'
         },
-        {
-            title: 'Instagram',
-            url: 'https://instagram.com'
-        },
-        {
-            title: 'Resume',
-            url: 'resume.pdf'
-        }
+        // {
+        //     title: 'Instagram',
+        //     url: 'https://instagram.com'
+        // },
+        // {
+        //     title: 'Resume',
+        //     url: 'resume.pdf'
+        // }
     ],
 
     aboutMe: {
