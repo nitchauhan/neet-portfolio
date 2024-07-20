@@ -16,7 +16,9 @@ const IntroSection = () => {
         <section className={`${style.introSectionContainer} ${style.sectionContainer}`}>
             <div className={style.introSectionImage}>
                 {loadAmp ? (
-                    <amp-img src={MyPhoto} alt="Nitin Chauhan" layout="responsive" />
+                    <amp-img src={MyPhoto} alt="Nitin Chauhan" layout="responsive"
+                    width="152"
+                    height="152" />
                 ) : (
                     <Image
                         src={MyPhoto}
@@ -25,6 +27,9 @@ const IntroSection = () => {
                         layout="responsive"
                         quality="100"
                         placeholder="blur"
+                        fill={true}
+                        sizes="152"
+                        // blurDataURL={'../public/MyPhoto.png'}
                     />
                 )}
             </div>

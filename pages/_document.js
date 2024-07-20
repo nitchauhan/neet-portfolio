@@ -57,7 +57,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="Nitin Chauhan | Mern-Stack Web Developer" />
                     <meta
                         property="og:description"
-                        content="Innovative, task-driven professional with 8+ years of experience in web design and development across diverse industries."
+                        content="Innovative, task-driven professional with 2+ years of experience in web design and development across diverse industries."
                     />
                     <meta property="og:image" content="https://dev-nitin.vercel.app/MyPhoto.png" />
 

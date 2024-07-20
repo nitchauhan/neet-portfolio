@@ -1,15 +1,25 @@
 const getExperience = () => {
-    const joiningDate = new Date(2021, 6, 21).getFullYear();
-    const today = new Date().getFullYear();
+    const joiningDate = new Date(2021, 6, 21).getFullYear(); 
+    const lastDay  = new Date(2023 ,10 ,1).getFullYear();
+    const joininMonth = new Date(2021, 6, 21).getMonth(); 
+    const lastMonth  = new Date(2023 ,10 ,1).getMonth();
+    const finalYears = lastDay - joiningDate 
+    const finalMonths =  lastMonth - joininMonth
 
-    return today - joiningDate;
+    return finalYears + `.${finalMonths} `
 };
+
+  
+ 
+  
+
+
 
 const MyData = {
     name: 'Nitin Chauhan',
     description: 'Software Developer',
     email: 'nitinchauhan9698@gmail.com',
-    call: '+91 9662344294',
+    call: '+44 7721815995',
 
 
     socialLinks: [
@@ -25,14 +35,14 @@ const MyData = {
         //     title: 'Instagram',
         //     url: 'https://instagram.com'
         // },
-        // {
-        //     title: 'Resume',
-        //     url: 'resume.pdf'
-        // }
+        {
+            title: 'Resume',
+            url: 'resume.pdf'
+        }
     ],
 
     aboutMe: {
-        totalExperience: getExperience(),
+        totalExperience:getExperience(),
         // blogLink: 'harsh2124.wordpress.com',
         details:
             'Experienced Software Developer, adept in bringing forth expertise in design, installation, testing, and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with the latest cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team. Bringing forth expertise in the design, installation, testing, and maintenance of web systems. Able to effectively self-manage during independent projects, as well as collaborate in a team setting. Knowledgeable in the user interface, testing, and debugging processes.'
@@ -60,7 +70,7 @@ const MyData = {
             company: 'Excellent WebWorld Pvt. Ltd.',
             companyURL: 'https://www.excellentwebworld.com/',
             place: 'Ahmedabad, Gujarat',
-            duration: 'April 2022 - Present',
+            duration: 'April 2022 - October 2023',
             details: [
                 'Working with a complete remote team and managing the server and admin panel effectively.'
             ]
